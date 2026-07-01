@@ -19,8 +19,7 @@ An AI for Good Project.
 I create a dataset for Humanitarian Detection and Classification that simulates real-world scenarios by combining informative records with a significant amount of noise. This will be supported by a multi-stage pipeline of large language models (LLMs) designed to filter out valuable information obscured by the noise. Here are some quick highlights:
 
 - I collected ~3.6 million records to simulate a real-world scenario in Humanitarian Detection.
-- Apply Semantic Semilarity Searching using [FAISS](https://github.com/facebookresearch/faiss)
-- Build a cascade classifier (multi-stage) to tackle the challenge effectively and efficiently by leveraging popular LLMs.
+- Apply Semantic Semilarity Searching on GPU using [FAISS](https://github.com/facebookresearch/faiss)
 - Fine-tuning [BERT](https://huggingface.co/docs/transformers/en/model_doc/bert) for binary classification
 - Fine-tuning [Llama. 3.2-3B-base](https://huggingface.co/zai-org/GLM-5.2), using [Quantized Low-Rank Adaptation (QloRA)](https://github.com/artidoro/qlora), a [Parameter-Efficient Fine-Tuning (PEFT)](https://huggingface.co/docs/peft/en/index)
 - Apply Advanced Imbalancing handing, i.e., [FocalLoss](https://ieeexplore.ieee.org/document/8417976) and [WeightedLoss](https://docs.pytorch.org/docs/2.12/generated/torch.nn.CrossEntropyLoss.html).
