@@ -24,7 +24,7 @@ I create a dataset for Humanitarian Detection and Classification that simulates 
 - Fine-tuning [BERT](https://huggingface.co/docs/transformers/en/model_doc/bert) for binary classification
 - Fine-tuning [Llama. 3.2-3B-base](https://huggingface.co/zai-org/GLM-5.2), using [Quantized Low-Rank Adaptation (QloRA)](https://github.com/artidoro/qlora), a [Parameter-Efficient Fine-Tuning (PEFT)](https://huggingface.co/docs/peft/en/index)
 - Apply Advanced Imbalancing handing, i.e., [FocalLoss](https://ieeexplore.ieee.org/document/8417976) and [WeightedLoss](https://docs.pytorch.org/docs/2.12/generated/torch.nn.CrossEntropyLoss.html).
-![Testing pipeline](./crisislivetxt_testing_pipeline.png)
+<!-- ![Testing pipeline](./crisislivetxt_testing_pipeline.png) -->
 
 <!-- ## [SeaTurtle-ReID](https://github.com/dhnhut/SeaTurtle-ReID)
 
