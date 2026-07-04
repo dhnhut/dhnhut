@@ -31,10 +31,20 @@ Deep Learning application in Computer Vision that Identify Turtles in real image
 
 Technologies: [arcface (pytorch)](https://github.com/ronghuaiyang/arcface-pytorch), [Swin-B (pytorch)](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.swin_b.html#torchvision.models.swin_b), [Swin-Transformer (Microsoft)](https://github.com/microsoft/Swin-Transformer)
 
+**Turtle Segmentation:**
+
 ![Segmentation](./segmentation.png "segmentation")
 
-<!--
 ## [Landslide-DeepLearning](https://github.com/dhnhut/Landslide-DeepLearning)
 
-- I'll describe it soon.
--->
+Apply CNN to detect landslide from satilite image
+
+Technologies: [U-Net](https://github.com/milesial/pytorch-unet), [ResNet34 (pytorch)](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet34.html), [Segment Anything Model](https://github.com/facebookresearch/segment-anything)
+
+**Landslide detection:**
+
+![Landslide Detection](landslide.png)
+
+**Change detection:**
+
+![Surface Change](surface_change.png)
