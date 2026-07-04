@@ -25,10 +25,16 @@ I create a dataset for Humanitarian Detection and Classification that simulates 
 - Apply Advanced Imbalancing handing, i.e., [FocalLoss](https://ieeexplore.ieee.org/document/8417976) and [WeightedLoss](https://docs.pytorch.org/docs/2.12/generated/torch.nn.CrossEntropyLoss.html).
 <!-- ![Testing pipeline](./crisislivetxt_testing_pipeline.png) -->
 
-<!-- ## [SeaTurtle-ReID](https://github.com/dhnhut/SeaTurtle-ReID)
+## [SeaTurtle-ReID](https://github.com/dhnhut/SeaTurtle-ReID)
 
-- I'll describe it soon.
+Deep Learning application in Computer Vision that Identify Turtles in real images.
 
+Technologies: [arcface (pytorch)](https://github.com/ronghuaiyang/arcface-pytorch), [Swin-B (pytorch)](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.swin_b.html#torchvision.models.swin_b), [Swin-Transformer (Microsoft)](https://github.com/microsoft/Swin-Transformer)
+
+![Segmentation](./segmentation.png "segmentation")
+
+<!--
 ## [Landslide-DeepLearning](https://github.com/dhnhut/Landslide-DeepLearning)
 
-- I'll describe it soon. -->
+- I'll describe it soon.
+-->
